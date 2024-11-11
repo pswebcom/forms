@@ -8,7 +8,11 @@
 </head>
 <?php
 if (isset($_REQUEST['message'])) {
-    echo $_REQUEST['message'];
+    if ($_REQUEST['message'] == "success") {
+        echo "Successfull";
+    } else {
+        echo "error";
+    }
 }
 ?>
 
