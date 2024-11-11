@@ -6,30 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-
-
 <?php
-
-if (isset($_POST['form1'])) {
-
-    echo $_REQUEST['name'];
-    echo $_REQUEST['email'];
-
+if (isset($_REQUEST['message'])) {
+    echo $_REQUEST['message'];
 }
-
-
 ?>
 
 <body>
 
     <!-- same page result -->
-    <form action="" method="post">
+    <form action="result.php" method="post">
         <div>Name:</div>
         <div>
             <input type="text" name="name">
         </div>
-
-
         <div>Email:</div>
         <div>
             <input type="email" name="email">

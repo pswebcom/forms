@@ -1,4 +1,3 @@
 <?php
 
-echo $_REQUEST['name'];
-echo $_REQUEST['email'];
+header("location:index.php?message=1");
