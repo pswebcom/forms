@@ -9,16 +9,17 @@
 
 <body>
 
-    <form action="" method="post">
+    <!-- get will take to result.php -->
+    <form action="result.php" method="get">
         <div>Name:</div>
         <div>
-            <input type="text" name="name" autocapitalize="off">
+            <input type="text" name="name">
         </div>
 
 
         <div>Email:</div>
         <div>
-            <input type="email" name="email" autocapitalize="off">
+            <input type="email" name="email">
         </div>
 
         <div>
