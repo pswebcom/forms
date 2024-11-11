@@ -10,7 +10,7 @@
 <body>
 
     <!-- get will take to result.php -->
-    <form action="result.php" method="get">
+    <form action="result.php" method="post">
         <div>Name:</div>
         <div>
             <input type="text" name="name">
