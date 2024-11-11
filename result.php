@@ -1,7 +1,5 @@
 <?php
 
-if ($_REQUEST["name"] == "ps") {
-    header("location:index.php?message=success");
-} else {
-    header("location:index.php?message=error");
-}
+echo $_REQUEST['name'];
+
+echo $_REQUEST['age'];

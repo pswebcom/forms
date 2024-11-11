@@ -6,20 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<?php
-if (isset($_REQUEST['message'])) {
-    if ($_REQUEST['message'] == "success") {
-        echo "Successfull";
-    } else {
-        echo "error";
-    }
-}
-?>
 
 <body>
 
     <!-- same page result -->
-    <form action="result.php" method="post">
+    <!-- <form action="result.php" method="post">
         <div>Name:</div>
         <div>
             <input type="text" name="name">
@@ -32,7 +23,11 @@ if (isset($_REQUEST['message'])) {
         <div>
             <input type="submit" value="Submit" name="form1">
         </div>
-    </form>
+    </form> -->
+
+
+
+    <a href="result.php?name=ps&age=30">redirect page</a>
 
 </body>
 
