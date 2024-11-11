@@ -7,10 +7,23 @@
     <title>Document</title>
 </head>
 
+
+<?php
+
+if (isset($_POST['form1'])) {
+
+    echo $_REQUEST['name'];
+    echo $_REQUEST['email'];
+
+}
+
+
+?>
+
 <body>
 
-    <!-- get will take to result.php -->
-    <form action="result.php" method="post">
+    <!-- same page result -->
+    <form action="" method="post">
         <div>Name:</div>
         <div>
             <input type="text" name="name">

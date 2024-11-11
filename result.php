@@ -1,4 +1,4 @@
 <?php
 
-echo $_POST['name'];
-echo $_POST['email'];
+echo $_REQUEST['name'];
+echo $_REQUEST['email'];
